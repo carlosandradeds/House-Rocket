@@ -57,6 +57,9 @@ def data_overview(data):
                      'Para encontrar as melhores oportunidades, a empresa conta com uma'
                      'equipe de cientista de dados, para apresentar as melhores escolhas para empresa.')
     st.sidebar.write('As informações do projeto podem ser acessadas através do seguinte link:')
+    
+    st.sidebar.write("Para mais informações sobre o projeto, acesse: "
+                         "[GitHub](https://https://github.com/carlosandradeds/house-rocket)")
 
     return None
 
