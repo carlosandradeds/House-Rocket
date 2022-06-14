@@ -314,7 +314,7 @@ def tabela (data):
 
 
 if __name__ == '__main__':
-    path = 'C:/Users/kaka/Projetos_DS/house-rocket/kc_house_data.csv'
+    path = 'kc_house_data.csv'
     data = get_data(path)
 
     remove_duplicates(data)
