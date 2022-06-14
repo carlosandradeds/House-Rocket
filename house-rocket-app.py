@@ -176,7 +176,7 @@ def assumptions(data):
 
 
     #H8
-    c8.header('H8 - Imóveis são 10% mais bem vendidos no verão.')
+    c8.header('H8 - Imóveis são 10% mais caros no verão.')
     data['season'] = data['month'].apply(lambda x: 'summer' if (x > 5) & (x < 8) else
                                          'spring' if (x > 2) & (x < 5) else
                                          'fall' if (x > 8) & (x < 12) else
@@ -292,9 +292,9 @@ def answer(data):
 
     for i, row in df5.iterrows():
         if (row['price_medi_season'] > row['price']):
-            df5.loc[i, 'sale'] =  row['price'] * 0.1
+            df5.loc[i, 'sale'] =  row['price'] * 1.1
         else:
-            df5.loc[i, 'sale'] = row['price'] * 0.3
+            df5.loc[i, 'sale'] = row['price'] * 1.3
 
 
     df5= df5[['price_medi_season', 'price', 'sale', 'price_median', 'season', 'zipcode']]
