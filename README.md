@@ -86,3 +86,36 @@ Imóveis em más condições, mas com uma boa vista são 10% mais caros.
 Crescimento do preço mês após mês em 2014 é de 10%.
 
 **Falso**: O preço dos imóveis são mais caros entre o mês 3 e 6.
+
+# 6. Tradução para o negócio
+
+O as análises das hipóteses dizem sobre o negócio
+
+| Hipótese                                                     | Resultado  | Tradução para negócio                                        |
+| ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| **H1** - Imoveis que possuem vista para água, são 30% mais caros, na média. | Verdadeira | Investir em imóveis com vista para água                      |
+| **H2** - Imóveis com data de construção menor que 1955 são em média 50% mais baratos | Falsa      | Investir em imóveis independente da data de construção       |
+| **H3** - Imóveis com porão são em média 20% mais caros | Verdadeira | Podemos investir em imóveis sem porão e construir um porão e vender mais caro              |
+| **H4** - O crescimento do preço dos imóveis MoM em 2015 é de 10% | Falsa | Investir em imóveis nos meses de menor custo  |
+| **H5** - Imóveis com maior numero de banheiros são 10% mais caros. | Verdadeiro      | Investir em imóveis com mais banheiros                     |
+| **H6** - Imóveis que nunca foram reformados são 20% mais baratos que imóveis que já foram reformados | Verdadeira | Investir em imóveis antigos e não renovados e reforma-los para venda |
+| **H7** - Imóveis que estão no centro da cidade são 30% mais caros. | Verdadeiro      | Investir em imóveis no centro                         |
+| **H8** - Imóveis são 10% mais caros no verão.   | Falsa      | Imóveis são mais caros no inverno, vender no inverno geraria mais lucro                  |
+| **H9** - Imóveis com más condições, não renovados, são 40% mais baratos | Verdadeira      | Investir em imóveis nos meses de menor custo                 |
+| **H10** - Imóveis com qualidade de vista mais alta tem valor 20% mais caro | Verdadeira      | Investir em imóveis nos meses de menor custo                 |
+
+
+O provável lucro com a venda dos imóveis indicados tem o seguinte valor: **22.623.548,20**
+
+
+# 7. Conclusão
+
+O objetivo do projeto era responder as seguintes perguntas de negócio:
+
+**1**. Quais casas o CEO da House Rocket deveria comprar e por qual preço de compra?
+
+**2.** Uma vez a casa em posse da empresa, qual o melhor momento para vendê-las e qual seria o preço da venda?
+
+Conseguimos identificar as melhores opções e compra. A segunda questão, é necessário uma melhor análise, já que chegamos ao resultado em que os imóveis vendidos no inverno tem preços mais altos, em compensação a primavera tem um maior numero de vendas, com isso temos duas opções que podem ser melhor exploradas no futuro.
+Como melhor maior aprimoramento do projeto futuramente, poderia ser feita uma análise de lucratividade para compra e reforma de imóveis em más condições.
+
