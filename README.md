@@ -1,6 +1,9 @@
 # House Rocket 
+[LINK PARA ACESSO - CLIQUE PARA ACESSAR O PROJETO](https://house-rocket-app2.herokuapp.com)
 
 Esse é um projeto ficticio. A empresa e os problemas de negócio. As instruções para realização do projeto, foram recomendações do blog [Seja um Data Scientist](https://medium.com/@meigarom/os-5-projetos-de-data-science-que-fará-o-recrutador-olhar-para-você-c32c67c17cc9).
+
+
 
 # 1. Descrição
 A House Rocket é uma empresa que trabalha com compra e venda de imóveis. A empresa está em busca de maximizar sua receita, encontrando as melhores oportunidades de negócio, dessa forma o Cientista de Dados precisa identificar as melhores opções de compra de imóveis, assim como a melhor hora para vende-los.
